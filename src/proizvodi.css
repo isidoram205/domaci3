@@ -1,0 +1,6 @@
+.svi-proizvodi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tri proizvoda u jednom redu */
+  grid-gap: 20px; /* Razmak između proizvoda */
+  justify-content: center; /* Centriranje sadržaja horizontalno */
+}

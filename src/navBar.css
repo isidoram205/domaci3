@@ -1,0 +1,28 @@
+/* navbar.css */
+.navBar {
+    background-color: #ffffff; /* Boja pozadine navigacionog bara */
+    color: #eebbc4; /* Boja teksta */
+    padding: 40px; /* Razmak oko sadržaja unutar navigacionog bara */
+    display: flex; /* Koristimo fleksibilan model za pozicioniranje sadržaja */
+    justify-content: center; /* Raspored sadržaja sa razmakom između */
+    align-items: center; /* Centriranje sadržaja po vertikali */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+  }
+
+  
+  .navBar a {
+    text-decoration: none; /* Uklonite podvlačenje sa linkova */
+    color: #EEBBC4; /* Boja teksta linkova */
+    font-weight: bold; /* Debljina teksta linkova */
+    font-family: 'Roboto', sans-serif;
+    margin: 0 45px;
+  }
+  
+  .navBar a:hover {
+    text-decoration: underline; /* Podvlačenje linkova na hover */
+  }
+  
