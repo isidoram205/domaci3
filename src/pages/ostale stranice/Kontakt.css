@@ -1,0 +1,74 @@
+.contact-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #94AE89;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: #333;
+    
+  }
+
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  img {
+    object-position: left;
+    border-radius: 10px; 
+
+
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid #EEE;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    background-color: #FFB6C1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #FF8796;
+  }
