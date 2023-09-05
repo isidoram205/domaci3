@@ -1,0 +1,140 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ukupno, .prazna{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nastavi, .placanje{
+    background: #94AE89; 
+    background: -webkit-linear-gradient(to right, #eeb2b9, #ee9ca7); 
+    background: linear-gradient(to right, #eeb2b9, #ee9ca7); 
+    padding: 10px;
+    padding-top: 5px;
+    margin: 5px;
+    border-color: #A0C3D2;
+    border-radius: 15px;
+    border-style: double;
+    color: #F7F5EB;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .nastavi:hover, .placanje:hover{
+    color:#A0C3D2;
+    transform: scale(1.1);
+    cursor: pointer;
+
+  }
+
+  .korpa{
+      background: #94AE89;  
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      padding-top: 50px;
+      padding-left: 0px;
+    
+  }
+
+  .korpaCheckout{
+    background: #94AE89; 
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .korpaItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+    background: #eacda3;
+    background: -webkit-linear-gradient(to right, #ffebd1, #f8e9d4); 
+    background: linear-gradient(to right, #ffebd1, #f8e9d4);
+  }
+
+  .naslov {
+    padding-top: 100px;
+    font-family: 'Garamond', serif;
+    color: #A0C3D2;
+    font-style: none;
+    font-style: normal;
+    font-size: 100px;
+    margin-top: 0.1px;
+    margin-bottom: 100px;
+  padding-top: 20px; 
+  font-size: 50px;
+  text-align: center;
+  }
+
+  .korpaItem img {
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .korpaItem .opis {
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Garamond', cursive;
+    color: #ee9ca7;
+  }
+
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .kolicinaPlus{
+    background: #ee9ca7;  
+    background: -webkit-linear-gradient(to right, #eeb2b9, #ee9ca7);  
+    background: linear-gradient(to right, #eeb2b9, #ee9ca7); 
+    border: #A0C3D2;
+    border-style: double;
+    border-radius: 5px;
+    color: #F7F5EB;
+    font-size: 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    margin: 3px;
+  }
+
+  .kolicinaPlus:hover{
+    transform: scale(1.1);
+    color: #A0C3D2;
+    cursor: pointer;
+  }
+
+  .kolicinaInput{
+    background: #ee9ca7;  
+    background: -webkit-linear-gradient(to right, #eeb2b9, #ee9ca7);  
+    background: linear-gradient(to right, #eeb2b9, #ee9ca7); 
+    border: #A0C3D2;
+    border-style: double;
+    border-radius: 5px;
+    color: #F7F5EB;
+    font-size: 20px;
+    pointer-events: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }

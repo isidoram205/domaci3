@@ -1,0 +1,65 @@
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 25px;
+}
+
+
+.krema1 {
+  max-width: 200px; 
+  height: 100; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.cena{
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #EEBBC4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  margin-top: 20px;
+  cursor: copy;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
